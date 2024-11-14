@@ -21,8 +21,8 @@ print(var1 + * + var2 + = +  str(var1) + (var2))
 
 
 # 5) 
-num1 = 5
-num2 = 15
+num1 5 =
+num2  15 =
 print(num1 " + " num2 " = " str(int(num1)+int(num2)) ) 
 # print(str(num1)+ " + " + str(num2) + " = " + str(num1 + num2))
 
@@ -31,7 +31,7 @@ user name = (name)
 surname = "Mamuladze"
 print(user name + " " + age)
 
-# user_name =(name)
+# user_name = "name"
 # age = "10"
 # print(user_name + " " + surname)
 
@@ -53,3 +53,5 @@ var4 = 5
 print(int(var1)  + " + "  str(var2) + " - "  +  str(var3) " / " (var4) +  =  str( (var1 " + " var2 "-" var3 / var4) )
       
 # print(str(var1) + " + " + str(var2) + " - " + str(var3)+ " / " + str(var4) + " = " + str( var1 + var2 - var3 / var4) )
+
+# 9)
