@@ -87,3 +87,10 @@ print(num1 / num4)
 
 # 4) დაბეჭდეთ ტერმინალში როგორ მოხვდით გოაში თქვენი ისტორია, ამართლებს თუარა თქვენს მოლოდინებს რა შთაბეჭდილებები დაგიტკვათ და ასე შემდეგ დაწერეთ ვრცლად 
 
+name = " I am Deme"
+surname = "Mamuladze"
+age = "26 years old live and work in Tbilisi,"
+Goa = "I joined GOA Academy cause I was looking for online Programs to learn something new in this field. I came across Goa's  program and decided to give it a try, hoping it would match the positive feedback I had heard. So far, the experience has been interesting and The first two lecture was quit informative "
+print(name + " " + surname  + " " +  age + " " +  Goa)
+
+

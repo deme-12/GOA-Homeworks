@@ -72,7 +72,6 @@ left(90)
 forward(40)
 end_fill()
 
-
 exitonclick()
 
 
