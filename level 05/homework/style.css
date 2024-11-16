@@ -1,0 +1,48 @@
+body{
+    padding: 15px 10px;
+    font-family: sans-serif;
+    margin: 0 10em;
+    background-color: rgb(109, 229, 229);
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color:white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    box-shadow: 0px 0px 0px 3px lightblue;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+}
+
+.btn1 {
+    background-color: darkcyan;
+}
+
+.btn1:hover {
+    background-color: blue;
+}
+
+h5 {
+    width: 80em;
+    height: 40px;
+    background-color: rgb(119, 60, 151);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.GOA {
+    background:linear-gradient(to left, green, red);
+    font-size: 18px;
+}
