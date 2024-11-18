@@ -1,3 +1,7 @@
 #8 შეამოწმე, არის თუ არა ციფრი მთელი რიცხვი. 
-num = int(input("enter ypur number: "))     #  ვერ გავიგე
+num = input("enter ypur number: ")    #  ვერ გავიგე
 
+if "." in num:
+    print("float")
+else:
+    print("int")
