@@ -4,6 +4,4 @@ num = 10
 while num <= 35:
     if num % 2 != 0:  
         print(str(num) + " is odd")
-    else:
-        print()
     num += 1
