@@ -36,4 +36,22 @@ while num <= 100:
         print(str(num) + " odd")
     num += 1  
 
+# ჯგუფი 58 საკლასო 
+while True:
+    print("go on")
+    user_input = input("enter your question or exit to quit ")
 
+    if user_input . lower() == "how are you":
+        print("i am doing well thanks you")
+    elif user_input == "whats the weather like?":
+        print("its sunny and warm today")
+    elif user_input == "give me bitcoin":
+        print("sorry i cant give you bitcoin")
+    elif user_input == "hack NASA":
+        print("sorry i cant do that i am programer")
+    elif user_input == "exit":
+        print("goodbye!")
+        break
+    else:
+        print()
+    
