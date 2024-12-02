@@ -1,6 +1,11 @@
 def high_and_low(numbers):
-    num_list =list(map(int,numbers.split()))
-    highest = max(num_list)
-    lowest = min(num_list)
-    
-    return f"{highest} {lowest}"
+    numbers = numbers.split(" ")
+    min_number = int(numbers[0])
+    max_number = int(numbers[0])
+    for num in numbers:
+        if min_number > int(num):
+            min_number = int(num)
+        elif max_number < int(num):
+            max_number = int(num)
+        
+    return str(max_number) + " " + str(min_number)
