@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- შექმენით Multi-Page ვებსაიტი, ერთ-ერთ გვერდზე უნდა გქონდეთ სარეგისტრაციო ფორმა, სადაც მომხარებელს შემოატანინებთ სრულს სახელს, ემაილს და პაროლს. თითოეული შესაყვანი ველის შევსება გახადეთ სავალდებულო.(საიტის ყველა გვერდი დააკავშირეთ ერთმანეთთან) -->
+
+    <style>
+        body{
+            background:linear-gradient(to left,rgb(225, 225, 114), lightblue);
+            font-family: sans-serif;
+        }
+
+        .input-information {
+            width: 20em;
+            height: 20em;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-left: 70em;
+            margin-top: -1em;
+            box-shadow: 1px 1px 1px 4px rgb(193, 207, 180);
+        }
+
+        .head {
+            background-color: blue;
+            width: 260px;
+            height: 70px;
+            text-align: center;
+            padding: 1px;
+            color:white;
+            border-radius: 10px;
+            font-size: 15px;
+            
+        }
+
+        input {
+            width: 23em;
+            height: 2.5em;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .submit {
+            width: 15.2em;
+            height: 2.3em;
+            background-color: red;
+            border-radius: 6px;
+            border: none;
+            color: white;
+            font-size: 21px;
+            letter-spacing: 1px;
+        }
+
+        .travel-grid {
+            background-color: rgb(204, 121, 210);
+            width: 20em;
+            height: 10em;
+            font-weight: bold;
+            color: rgb(26, 25, 25);
+            border-radius: 15px;     
+            margin-top: -12em;
+            box-shadow: 0px 0px 0px 4px rgb(245, 209, 245);
+        }
+
+        .photos img {
+            padding: 10px;
+            border-radius: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        a{
+            margin-left: 85px;
+            text-decoration: none;
+        }
+        .Sign-Up {
+            width: 15em;
+            height: 3em;
+            background-color: rgb(35, 171, 35);
+            border-radius: 5px;
+            font-weight: bold;
+            border: none;
+            color: white;
+            margin-left: 60px;
+        }
+        img{
+            border-radius: 15px;
+        }
+        .top-destination {
+            background-color: rgb(155, 202, 222);
+            padding: 10px;
+            border-radius: 15px;
+        }
+
+        .links {
+            font-size: 20px;
+            font-weight: bold;
+            margin:0px 14em;
+            margin-top: -2.5em;   
+        
+        }
+
+    </style>
+
+    <div class="container">
+        <div class="head">
+            <h1>Travel Agency</h1>
+            <br>
+            <img src="nepal.jpeg" alt="" width="1000px" height="100px">
+        </div> 
+
+            <div class="links">
+                <a href="index1.html">About Us</a>
+                <a href="index2.html">Contact Us</a>
+            </div>
+
+        <div class="input-information">
+            <form>
+                <input type="text" placeholder="Enter your mail" required> <br> <br>
+                <input type="password" placeholder="enter password" required>  <br> <br>
+                <button class="submit">Submit</button> <br> <br>
+                <a href="">Forget Password?</a> <br> <br>
+                <button class="Sign-Up">Sign Up</button>
+            </form>
+        </div>
+
+
+    <div class="travel-grid">
+        <h2>advices for travelers</h2>
+        <ul>
+            <li> Plan and Research Ahead</li>
+            <li> Pack Smart and Light</li>
+            <li> Keep Your Documents Safe </li>
+            <li> Keep Your Documents Safe</li>
+            <li> Keep Your Documents Safe</li>
+        </ul>
+    </div> <br> <br>
+
+    <div class="photos">
+        <img src="nepal.jpeg" alt="Nepal" width="300" height="200">
+        <img src="japan.jpeg" alt="Nepal" width="300" height="200">
+        <img src="peru.jpeg" alt="Nepal" width="300" height="200">
+    </div> <br>
+
+        <div class="top-destination">
+            <p>
+                
+                <b>1. Japan </b>
+                Why Go: A harmonious blend of modern technology and ancient tradition, Japan offers unique experiences like cherry blossom viewing, ancient temples, futuristic cities, and tranquil hot springs.
+                Top Spots:
+                <br> <br>
+                2. <b>Italy</b>
+                Why Go: Italy is known for its rich history, world-class art, stunning coastlines, and delicious cuisine. From the canals of Venice to the historic ruins in Rome, there’s a perfect blend of history, art, and relaxation.
+                <br> <br>
+                <b>3. Australia </b>
+                Why Go: Known for its diverse wildlife, pristine beaches, and vibrant cities, Australia offers everything from exploring the Great Barrier Reef to experiencing the cultural pulse of cities like Sydney and Melbourne.
+                Top Spots:
+                <br> <br>
+                <b>4. Iceland </b>
+                Why Go: Iceland is a nature lover’s paradise, with dramatic landscapes including volcanoes, glaciers, hot springs, and geysers. It’s perfect for adventure seekers and photographers looking to capture unique natural beauty.
+                <br> <br>
+                <b>5. France </b>
+                Why Go: France is known for its elegant culture, fine wines, rich history, and world-renowned art and cuisine. Whether you’re exploring Paris or relaxing in Provence, it’s a destination full of romance and charm.
+                
+
+            </p>
+
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
