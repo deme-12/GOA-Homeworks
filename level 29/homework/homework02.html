@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- შექმენით Multi page website-ი გოაზე. საიტზე უნდა გქონდეთ რეგისტრაციის გვერდი, სადაც მომხარებელს შემოატანინებთ სახელს, გვარს, ემაილს, პაროლს, გენდერს და ასევე გექნებათ drop down menu(ჩამოსაშლელი მენიუ), რომელშიც მომხარებელი აირჩევს სასურველ speed-ს(გაკვეთილების რაოდენობა კვირაში). თითოეული input-ის შეყვანა/მონიშვნა/არჩევა უნდა იყოს აუცილებელი.
+
+    საიტზე უნდა გქონდეთ მთავარი გვერდი, რომელზეც გადახვალთ დარეგისტრირებისას(მოიძიეთ ეს. "ღილაკზე დაჭერისას როგორ შეიძლება გადასვლა სხვა გვერდზე"). მთავარი გვერდი უნდა იყოს content-ით სავსე. ჩასვით ფოტოები და ისაუბრეთ გოაზე, რატომ ღირს ჩვენთან შემოსვლა, როგორი გარემოა, რატომ აირჩიეთ გოა და რაში დაგეხმარათ ის. რა შეიცვალა თქვენს ცხოვრებაში გოაში შემოსვლით. ასევე დაამატეთ სანავიგაციო მენიუ, რომლითაც ყველა გვერდს დააკავშირებთ ერთმანეთთან.
+
+    გამოიყენეთ ყველა ნასწავლი მასალა. მაგალითად ტექსტის ფორმატირების თეგები, სიები, სათაურები და ა.შ
+
+    დაყავით საიტი სექციებად -->
+
+    <div class="container">
+        <div class="head">
+            <h1>Goal-Oriented Academy • GOA</h1>
+            <a href="index1.html">About us</a>
+            <a href="index2.html">Contact Us</a> <br> <br>
+            <img src="goa1.jpeg" alt="Goal Academy" width="1550" height="80">
+        </div>
+
+        <div class="menu">
+            <form>
+                <input id="Name" type="Name" placeholder="Enter your Name" name="Name" required> <br> <br>
+                <input id="Name" type="mail" placeholder="Enter ypur email" name="mail" required> <br> <br>
+                <input id="password" type="password" placeholder="Enter password" name="password" required>  <br> <br>
+                <a href="">Froger password?</a>  <br> <br>
+
+                <select name="" id="">
+                    <option value="" selected>Choose Speed</option>
+                    <option value="Speed 1">1 lesson in a week</option>
+                    <option value="Speed 2">2 Lesson in a week</option>
+                    <option value="Speed 3">3 Lesson in a week </option>
+                    <option value="">4 lesson in a week</option>
+                </select> <br> <br>
+                <button class="submit">Submit</button>
+            </form>
+    
+        </div>
+
+        <div class="image">
+            <img src="goa.jpg" alt="" width="300" height="200"> 
+            <img src="goa2.jpeg" alt="" width="300" height="200">
+        </div>
+
+        <div class="text-information">
+            <p>
+                <b>გოა აკადემია (Goal-Oriented Academy, GOA) არის საქართველოში ერთ-ერთი წამყვანი საგანმანათლებლო პლატფორმა, რომელიც ფოკუსირებულია პროგრამირების და ტექნოლოგიური უნარების განვითარებაზე.</b>  <br>  <b>GOA </b> - სთავაზობს მრავალფეროვან კურსებს, მათ შორის Python-ის, JavaScript-ის, ვებ-დეველოპმენტის და სხვა თანამედროვე ტექნოლოგიების შესწავლას. მათი მიზანია, სტუდენტებს არა მხოლოდ ტექნიკური ცოდნა მისცენ, არამედ განუვითარონ სხვა უნარებიც, რაც თანამედროვე ბიზნეს გარემოში წარმატებისთვის მნიშვნელოვანია.
+            </p> <br>
+
+
+        </div>
+    </div>
+
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: sans-serif;
+        }
+        .menu {
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            margin: 30px;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 1px 1px 1px 2px rgb(211, 210, 209);
+            display: flex;
+            gap: 8em;
+        }
+
+        .text-information {
+            margin-left: 35em;
+            margin-top: -30em;
+            background-color: rgb(62, 111, 196);
+            color: white;
+            letter-spacing: 1px;
+            padding: 10px;
+            border-radius: 13px;
+            box-shadow: 1px 1px 1px 3px rgb(202, 190, 190);
+        }
+        
+        input {
+            width: 300px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1.5px solid gray;
+            box-shadow: 1px 1px 1px 1px rgb(188, 187, 187);
+        }
+
+         select {
+            height: 35px;
+            border-radius: 5px;
+            border: none;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .submit {
+            width: 150px;
+            height: 35px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(38, 103, 235);
+            color: white;
+            font-size: 20px;
+            box-shadow: 1px 1px 1px 2px rgb(137, 135, 135);
+
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: green;
+            
+        }
+
+        .image img {
+            border-radius: 15px;
+    
+        }
+    </style>
+</body>
+</html>
