@@ -1,0 +1,78 @@
+     body{
+        font-family: sans-serif;
+        padding: 10px;
+    }
+
+    .main-dishes{
+        display: flex;
+        gap: 3em;
+        padding: 10px;
+        box-shadow: 1px 2px 7px rgb(43, 42, 43);
+    }
+
+
+    .deserts {
+        display: flex;
+        padding: 10px;
+    }
+    
+    section{
+        background-color: rgb(103, 141, 181);
+        width: 95em;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    .More-dishes{
+        background-color: rgb(154, 84, 84);
+        display: flex;
+        width: 96.5em;
+        height: 280px;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+        box-shadow: 1px 2px 7px rgb(43, 42, 43);
+        padding: 5px;
+    }
+
+    .More-dishes section{
+        width: 400px;
+        background-color: rgb(154, 84, 84);
+        padding: 5px;
+    }
+
+    img{
+        border-radius: 10px;
+        box-shadow: 0px 0px 0px 3px rgb(249, 246, 246) ;
+    }
+
+    h2{
+        color: rgb(242, 239, 144);
+        letter-spacing: 1.5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    h1{
+        text-align: center;
+        color: rgb(247, 238, 239);
+        background-color: rgb(93, 178, 116);
+        padding: 3px;
+        border-radius: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    button{
+        background-color: rgb(237, 106, 106);
+        color: white;
+        width: 120px;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        letter-spacing: 1px;
+        box-shadow: auto;
+        cursor: pointer;
+    }
+
+    footer{
+     color: red;
+    }
