@@ -34,3 +34,24 @@ def high(x):
             max_word = word  # `max_word`- განვაახლებთ და  შევინახავთ ამ ახალ სიტყვას.
 
     return max_word  # ფუნქცია აბრუნებს იმ სიტყვას, რომელსაც ყველაზე მეტი ქულა აქვს.
+
+
+
+def high(x):
+    splited_x = x.split()
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    
+    result = ""
+    max_score = 0
+    
+    for i in splited_x:
+        score_sum = 0
+        
+        for x in i:
+            score_sum += alphabet.index(x) + 1
+        if score_sum > max_score:
+            result = i
+            max_score = score_sum
+    return result
+
+
