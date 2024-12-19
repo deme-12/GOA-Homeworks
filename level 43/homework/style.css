@@ -19,7 +19,7 @@ main,ul{
 a{
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: #FFFFFF;
 }
 
 #Nepal, #Peru, #Japan{
@@ -59,7 +59,7 @@ button{
 footer{
     width: 530px;
     padding: 2px;
-    background-color: black;
+    background-color: #000000;
     color: white;
     border-radius: 15px;
     margin-top: 100px;
