@@ -1,0 +1,37 @@
+ body{
+    background-color: rgb(158, 186, 175);
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+ }
+
+ h1{
+    text-align: center;  
+}
+
+/* h1 არის ბლოქ-ლაინ ელემენტი რაც ნიშნავს რომ იკავებს მთელი ეკრანის სივრცეს, შესაბამისად გაცენტრდება შუაში რადგან აქვს შესაბამისი სივრცე */
+
+/* b - თეგიც გაცენტრდება თუმცა რადგან ის არის ინ ლაინ ელემენტი და იკავებს მხოლოდ იმდენ ადგილს რამდენიც ყოფნის მასში არსებულ ტექსტ, ჩვენთვის შეუმჩნეველი არის, შეგვიძლია გადავაქციოთ ბლოქ ლეინ ელემენტად (display: block) და შემდეგ მასაც ექნება სივრცე მთელ ეკრანზე */
+
+
+b {
+    text-align: center; 
+}
+
+#p1{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+}
+
+#p2{
+    text-decoration: overline;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+}
+
+#p3 {
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+}

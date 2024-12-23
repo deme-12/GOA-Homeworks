@@ -26,9 +26,6 @@ def valid_phone_number(phone):
 
 
 
-
-
-
 def valid_phone_number(phone):
     # სიგრძის შემოწმება
     if len(phone) != 14:
