@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    font-family: "poppins",serif;
+    color: red;
+    text-shadow: 1px 1px 6px rgb(37, 38, 38);
+    text-align: center;
+    background-color: rgb(189, 218, 228);
+    border-radius: 15px;
+}
+
+h2{
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: rgb(253, 253, 253);
+    background-color: rgb(94, 147, 186);
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+p{
+    font-family: "poppins",serif;
+    font-weight: bold;
+}
+
+a{
+text-decoration: none;
+font-weight: bold;
+
+}
+
+a:hover{
+    color: red;
+    text-decoration: line-through dotted black;
+}
+
+a:active{
+    color: black;
+    text-decoration: line-through dotted yellow;
+}
+
+footer{
+    background-color: rgb(120, 189, 150);
+    color: rgb(5, 0, 0);
+}
+
+
+/* hover - როდესაც მომხმარებელი მაუსს მიიტანს კონკრეტულ ღილაკთან ან ლინკთან და მას ეცვლება სტილი.
+
+active - როდესაც მომხმარებელი უშუალოდ აჭერს კონკრეტულ ლინკს ან ღილაკს ამ შემთხვევაში იცვლება სტილი */
+
+
+
+/* font-weight კუთვნილება CSS-ში გამოიყენება ტექსტის სისქის (ბოლდურობის) განსაზღვრისთვის.
+ნომერული მნიშვნელობები:
+	100 - 900:
+	100: ყველაზე თხელი ტექსტი.
+	400: სტანდარტული  ტექსტი.
+	700:  (bold) ტექსტი.
+	900: ყველაზე სქელი ტექსტი. */
